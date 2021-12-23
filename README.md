@@ -1,9 +1,8 @@
-# Artwork - An Ethereum learning DAPP (Verisart Blockchain challenge)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is an dApp that it's made to interract with Metamask via Web3. In this app one can create his own artworks, edit them and delete them if one wishes to. One can also buy an artwork from another user as long as he is willing to pay for the price of it (in Ether). All the photos of the artworks created on the dApp are stored on an IPFS server usign Infura node network.
+This is an dApp that it's made to interract with Metamask via Web3. In this app one can create his own artworks, edit and delete them. One can also buy an artwork from another user as long as he is willing to pay for the price of it (in Ether). All the photos of the artworks created on the dApp are stored on an IPFS server usign Infura node network.
 
 
 
@@ -23,7 +22,6 @@ This section lists all the major frameworks/libraries used to create the project
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Instructions on setting up the project locally.
 
 ### Prerequisites
 
@@ -55,7 +53,13 @@ Instructions on setting up the project locally.
    ```sh
    truffle deploy --network ropsten
    ```
-4. Start project
+5. Start project
    ```sh
    npm start
    ```
+   
+### Additional Info
+
+1. In order to make the project work we need to have Ganache running.
+2. We should add adresses from our Ganache server to Metamask in order to interact with the dApp. (localhost)
+3. To test the dApp on the testnet of Ethereum(Ropsten in our case) we need to set out Metamask network to the Ropsten. We also need test Ethereum in out account in order to be able to interact with the contract. Get test Ether for Rospsten network [here](https://faucet.ropsten.be).
