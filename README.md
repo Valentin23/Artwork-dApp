@@ -41,19 +41,23 @@ This section lists all the major frameworks/libraries used to create the project
    ```sh
    npm install
    ```
-3. Compile contracts (Create /build)
+3. Install Truffle
+   ```sh
+   npm install truffle@4.1.15 -g
+   ``` 
+4. Compile contracts (Create /build)
    ```sh
    truffle compile
    ```
-4.1. Deploy contract (localhost)
+5.1. Deploy contract (localhost)
    ```sh
    truffle deploy --network development
    ```
-4.2. Deploy contract (Ropsten TestNet)
+5.2. Deploy contract (Ropsten TestNet)
    ```sh
    truffle deploy --network ropsten
    ```
-5. Start project
+6. Start project
    ```sh
    npm start
    ```
